@@ -1,0 +1,25 @@
+TRIBUNNEWS.COM, SERPONG - Universitas Multimedia Nusantara (UMN) mengembangkan aplikasi penapis kesalahan berbahasa pada tulisan yang diberi nama U-Tapis.
+
+Pengembangan aplikasi U-Tapis bertepatan dengan bulan bahasa Indonesia yang dirayakan setiap bulan Oktober.
+
+Aplikasi ini dikembangkan untuk menjawab permasalahan kesalahan bahasa yang kerap terjadi ketika seorang jurnalis harus menyampaikan berita dengan cepat.
+
+Ketua tim penelitian U-Tapis, Niknik Mediyawati Kuntarto, melihat masih banyaknya jurnalis yang kurang memperhatikan penggunaan bahasa Indonesia pada bahasa media dengan baik.
+
+“Kesalahan dalam berbahasa mampu menimbulkan kerancuan kalimat dan pada ujungnya, informasi kurang tersampaikan dengan baik. Belum lagi jika kesalahan berbahasa itu justru menimbulkan kegaduhan karena kesalahan persepsi,” ucap Niknik ketika diwawancara oleh tim Tribun.
+
+U-Tapis merupakan aplikasi penyaring kesalahan berbahasa Indonesia. Aplikasi ini dirancang dengan bantuan komputasi, khususnya kecerdasan buatan atau artificial intelligence.
+
+Proses pengembangan aplikasi U-Tapis sudah berjalan selama tiga tahun. Di tahun ketiga ini, pengembangan U-Tapis ditingkatkan dengan menambah kemampuan mendeteksi dan koreksi kesalahan berbahasa yang semakin akurat. Aplikasi ini nantinya akan diujikan kepada 75 jurnalis di Solo, Makassar, dan Jakarta.
+
+Pengembangan aplikasi ini bukanlah pekerjaan yang mudah hingga harus melibatkan kolaborasi dari tiga program studi (prodi) UMN. Prodi Jurnalistik, Prodi Sistem Informasi, dan Teknik Informatika, UMN dan didukung Tribunnews.com sebagai mitra bekerja sama dalam kompetensinya masing - masing.
+
+Pada kolaborasi ini, setiap pekerjaan dari masing-masing prodi saling terintegrasi. Prodi Jurnalistik sebagai pengelola data mentah yang nantinya akan digunakan oleh Prodi Teknik Informatika untuk uji coba machine learning yang telah dibuat oleh mereka, dan Prodi Sistem Informasi membuat UI/UX dari modul sistem yang sudah ada untuk mempermudah penggunaan aplikasi U-Tapis.
+
+Marlinda Vasty Overbeek, Ahli Informatika tim U-Tapis sekaligus Ketua Prodi Teknik Informatika UMN, mengatakan, tim Prodi Informatika UMN menghadapi tantangan dalam crawling data dan pra proses sistem. Lalu, penentuan algoritma yang tepat juga menjadi pertimbangan khusus bagi mereka.
+
+“Tantangan ke depan adalah, kami berusaha tidak hanya melakukan deteksi token kata, tetapi juga berusaha melihat penempatan kata yang benar dalam suatu kalimat,” ucap Vasty ketika diwawancara oleh tim Tribun.
+
+Selain itu, pengembangan aplikasi U-Tapis juga mendapatkan kesempatan memperoleh dana dari Program Kedaireka, Matching Fund 2022.
+
+Program Matching Fund Kedaireka sendiri merupakan salah satu bentuk nyata dukungan dari Kementerian Pendidikan, Kebudayaan, Riset, dan Teknologi (Kemdikbudristek) Republik Indonesia untuk menciptakan kolaborasi dan sinergi strategis antara Insan Perguruan Tinggi (lembaga perguruan tinggi) dan pihak Industri.

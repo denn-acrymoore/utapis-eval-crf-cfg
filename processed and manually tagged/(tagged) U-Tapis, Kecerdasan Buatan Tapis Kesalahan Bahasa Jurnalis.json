@@ -29,7 +29,7 @@
   [
     true,
     [
-      ["pengembangan", "<nomina"],
+      ["pengembangan", "<nomina>"],
       ["aplikasi", "<nomina>"],
       ["u-tapis", "<nomina>"],
       ["bertepatan", "<verba>"],
@@ -101,9 +101,10 @@
     ]
   ],
   [
-    false,
+    true,
     [
       ["``", "<kutip_awal>"],
+      [",", "<td_koma>"],
       ["''", "<kutip_akhir>"],
       ["ucap", "<nomina>"],
       ["niknik", "<nomina>"],
@@ -237,7 +238,7 @@
     false,
     [
       ["prodi", "<nomina>"],
-      ["jurnalistik", "<nomina"],
+      ["jurnalistik", "<nomina>"],
       [",", "<td_koma>"],
       ["prodi", "<nomina>"],
       ["sistem", "<nomina>"],
@@ -383,15 +384,16 @@
     ]
   ],
   [
-    false,
+    true,
     [
       ["``", "<kutip_awal>"],
+      [",", "<td_koma>"],
       ["''", "<kutip_akhir>"],
       ["ucap", "<nomina>"],
       ["vasty", "<nomina>"],
       ["ketika", "<konj_sub_tnp_koma_kt_pertama>"],
       ["diwawancara", "<verba>"],
-      ["oleh", "<preposisi"],
+      ["oleh", "<preposisi>"],
       ["tim", "<nomina>"],
       ["tribun", "<nomina>"],
       [".", "<td_akhir_kal>"]

@@ -1,0 +1,245 @@
+==================
+Evaluasi CRF
+==================
+Accuracy of "(tagged) Eksepsi Baiquni Ditolak, Hakim Perintahkan Teruskan Perkara Perintangan Penyidikan Kasus Brigadir J.json" = 0.9298892988929889
+Accuracy of "(tagged) Insiden Atap SD Runtuh Memakan Korban Jiwa, Ini Kata Sri Sultan HB X dan Disdik Gunungkidul.json" = 0.9275053304904051
+Accuracy of "(tagged) Subvarian Omicron XBB Menambah Kasus Aktif, Pemerintah Perpanjang PPKM Level 1 Seluruh Wilayah RI.json" = 0.9291666666666667
+Accuracy of "(tagged) Telkom Kembali Jadi Satu-Satunya Perusahaan Indonesia di Jajaran Forbes 2022 World_s Best Employer.json" = 0.9036458333333334
+Accuracy of "(tagged) U-Tapis, Kecerdasan Buatan Tapis Kesalahan Bahasa Jurnalis.json" = 0.920844327176781
+
+==================
+Evaluasi CFG
+==================
+generator_content_count = 0
+generator_content_count = 581
+generator_content_count = 145
+generator_content_count = 19
+generator_content_count = 0
+generator_content_count = 1
+generator_content_count = 48
+generator_content_count = 0
+generator_content_count = 4
+generator_content_count = 0
+generator_content_count = 0
+generator_content_count = 938393
+generator_content_count = 14
+Sentence 1: True Negative
+Sentence 2: True Positive
+Sentence 3: True Positive
+Sentence 4: True Positive
+Sentence 5: True Negative
+Sentence 6: True Positive
+Sentence 7: True Positive
+Sentence 8: True Negative
+Sentence 9: True Positive
+Sentence 10: False Negative
+Sentence 11: True Negative
+Sentence 12: True Positive
+Sentence 13: True Positive
+(tagged) Eksepsi Baiquni Ditolak, Hakim Perintahkan Teruskan Perkara Perintangan Penyidikan Kasus Brigadir J.json:
+True Positive (TP): 8
+False Positive (TP): 0
+True Negative (TN): 4
+False Negative (FN): 1
+Precision: 1.0
+Recall: 0.8888888888888888
+
+generator_content_count = 1040
+generator_content_count = 2
+generator_content_count = 3
+generator_content_count = 31
+generator_content_count = 0
+generator_content_count = 0
+generator_content_count = 15
+generator_content_count = 48
+generator_content_count = 3
+generator_content_count = 34
+generator_content_count = 4
+generator_content_count = 1
+generator_content_count = 1790
+generator_content_count = 243
+generator_content_count = 1
+generator_content_count = 1
+generator_content_count = 17
+generator_content_count = 3
+generator_content_count = 3
+generator_content_count = 6
+generator_content_count = 29
+generator_content_count = 30
+generator_content_count = 1
+generator_content_count = 26
+generator_content_count = 14
+generator_content_count = 0
+generator_content_count = 8
+generator_content_count = 114
+generator_content_count = 27
+generator_content_count = 3
+generator_content_count = 11582
+generator_content_count = 33
+generator_content_count = 8
+generator_content_count = 24
+generator_content_count = 1
+Sentence 1: True Positive
+Sentence 2: True Positive
+Sentence 3: True Positive
+Sentence 4: True Positive
+Sentence 5: True Negative
+Sentence 6: True Negative
+Sentence 7: True Positive
+Sentence 8: True Positive
+Sentence 9: True Positive
+Sentence 10: True Positive
+Sentence 11: True Positive
+Sentence 12: True Positive
+Sentence 13: True Positive
+Sentence 14: True Positive
+Sentence 15: True Positive
+Sentence 16: True Positive
+Sentence 17: True Positive
+Sentence 18: True Positive
+Sentence 19: True Positive
+Sentence 20: True Positive
+Sentence 21: True Positive
+Sentence 22: True Positive
+Sentence 23: True Positive
+Sentence 24: True Positive
+Sentence 25: True Positive
+Sentence 26: False Negative
+Sentence 27: True Positive
+Sentence 28: True Positive
+Sentence 29: True Positive
+Sentence 30: True Positive
+Sentence 31: True Positive
+Sentence 32: True Positive
+Sentence 33: True Positive
+Sentence 34: True Positive
+Sentence 35: True Positive
+(tagged) Insiden Atap SD Runtuh Memakan Korban Jiwa, Ini Kata Sri Sultan HB X dan Disdik Gunungkidul.json:
+True Positive (TP): 32
+False Positive (TP): 0
+True Negative (TN): 2
+False Negative (FN): 1
+Precision: 1.0
+Recall: 0.9696969696969697
+
+generator_content_count = 2
+generator_content_count = 91
+generator_content_count = 0
+generator_content_count = 36
+generator_content_count = 24
+generator_content_count = 28
+generator_content_count = 1
+generator_content_count = 0
+generator_content_count = 12
+generator_content_count = 0
+generator_content_count = 0
+generator_content_count = 2
+generator_content_count = 0
+generator_content_count = 2765
+Sentence 1: True Positive
+Sentence 2: True Positive
+Sentence 3: True Negative
+Sentence 4: True Positive
+Sentence 5: True Positive
+Sentence 6: True Positive
+Sentence 7: True Positive
+Sentence 8: True Negative
+Sentence 9: True Positive
+Sentence 10: True Negative
+Sentence 11: True Negative
+Sentence 12: True Positive
+Sentence 13: True Negative
+Sentence 14: True Positive
+(tagged) Subvarian Omicron XBB Menambah Kasus Aktif, Pemerintah Perpanjang PPKM Level 1 Seluruh Wilayah RI.json:
+True Positive (TP): 9
+False Positive (TP): 0
+True Negative (TN): 5
+False Negative (FN): 0
+Precision: 1.0
+Recall: 1.0
+
+generator_content_count = 0
+generator_content_count = 0
+generator_content_count = 165
+generator_content_count = 8109
+generator_content_count = 5308960
+generator_content_count = 99120
+generator_content_count = 5
+generator_content_count = 10164
+generator_content_count = 16809
+generator_content_count = 192
+generator_content_count = 265
+generator_content_count = 227
+generator_content_count = 0
+generator_content_count = 1
+generator_content_count = 0
+generator_content_count = 2
+Sentence 1: True Negative
+Sentence 2: True Negative
+Sentence 3: True Positive
+Sentence 4: True Positive
+Sentence 5: True Positive
+Sentence 6: True Positive
+Sentence 7: True Positive
+Sentence 8: True Positive
+Sentence 9: True Positive
+Sentence 10: True Positive
+Sentence 11: True Positive
+Sentence 12: True Positive
+Sentence 13: True Negative
+Sentence 14: True Positive
+Sentence 15: False Negative
+Sentence 16: True Positive
+(tagged) Telkom Kembali Jadi Satu-Satunya Perusahaan Indonesia di Jajaran Forbes 2022 World_s Best Employer.json:
+True Positive (TP): 12
+False Positive (TP): 0
+True Negative (TN): 3
+False Negative (FN): 1
+Precision: 1.0
+Recall: 0.9230769230769231
+
+generator_content_count = 3
+generator_content_count = 300
+generator_content_count = 260
+generator_content_count = 18392
+generator_content_count = 3
+generator_content_count = 10
+generator_content_count = 1239
+generator_content_count = 10
+generator_content_count = 1300
+generator_content_count = 3
+generator_content_count = 58
+generator_content_count = 0
+generator_content_count = 37
+generator_content_count = 0
+generator_content_count = 11375
+generator_content_count = 107
+generator_content_count = 3
+generator_content_count = 20
+generator_content_count = 1204858
+Sentence 1: True Positive
+Sentence 2: True Positive
+Sentence 3: True Positive
+Sentence 4: True Positive
+Sentence 5: True Positive
+Sentence 6: True Positive
+Sentence 7: True Positive
+Sentence 8: True Positive
+Sentence 9: True Positive
+Sentence 10: True Positive
+Sentence 11: True Positive
+Sentence 12: True Negative
+Sentence 13: True Positive
+Sentence 14: True Negative
+Sentence 15: True Positive
+Sentence 16: True Positive
+Sentence 17: True Positive
+Sentence 18: True Positive
+Sentence 19: True Positive
+(tagged) U-Tapis, Kecerdasan Buatan Tapis Kesalahan Bahasa Jurnalis.json:
+True Positive (TP): 17
+False Positive (TP): 0
+True Negative (TN): 2
+False Negative (FN): 0
+Precision: 1.0
+Recall: 1.0

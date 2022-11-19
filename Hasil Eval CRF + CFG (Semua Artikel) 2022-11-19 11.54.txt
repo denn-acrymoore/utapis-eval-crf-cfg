@@ -1,0 +1,209 @@
+==================
+Evaluasi CRF
+==================
+Accuracy (all articles) = 0.920844327176781
+
+==================
+Evaluasi CFG
+==================
+generator_content_count = 0
+generator_content_count = 581
+generator_content_count = 145
+generator_content_count = 19
+generator_content_count = 0
+generator_content_count = 1
+generator_content_count = 48
+generator_content_count = 0
+generator_content_count = 4
+generator_content_count = 0
+generator_content_count = 0
+generator_content_count = 938393
+generator_content_count = 14
+generator_content_count = 1040
+generator_content_count = 2
+generator_content_count = 3
+generator_content_count = 31
+generator_content_count = 0
+generator_content_count = 0
+generator_content_count = 15
+generator_content_count = 48
+generator_content_count = 3
+generator_content_count = 34
+generator_content_count = 4
+generator_content_count = 1
+generator_content_count = 1790
+generator_content_count = 243
+generator_content_count = 1
+generator_content_count = 1
+generator_content_count = 17
+generator_content_count = 3
+generator_content_count = 3
+generator_content_count = 6
+generator_content_count = 29
+generator_content_count = 30
+generator_content_count = 1
+generator_content_count = 26
+generator_content_count = 14
+generator_content_count = 0
+generator_content_count = 8
+generator_content_count = 114
+generator_content_count = 27
+generator_content_count = 3
+generator_content_count = 11582
+generator_content_count = 33
+generator_content_count = 8
+generator_content_count = 24
+generator_content_count = 1
+generator_content_count = 2
+generator_content_count = 91
+generator_content_count = 0
+generator_content_count = 36
+generator_content_count = 24
+generator_content_count = 28
+generator_content_count = 1
+generator_content_count = 0
+generator_content_count = 12
+generator_content_count = 0
+generator_content_count = 0
+generator_content_count = 2
+generator_content_count = 0
+generator_content_count = 2765
+generator_content_count = 0
+generator_content_count = 0
+generator_content_count = 165
+generator_content_count = 8109
+generator_content_count = 5308960
+generator_content_count = 99120
+generator_content_count = 5
+generator_content_count = 10164
+generator_content_count = 16809
+generator_content_count = 192
+generator_content_count = 265
+generator_content_count = 227
+generator_content_count = 0
+generator_content_count = 1
+generator_content_count = 0
+generator_content_count = 2
+generator_content_count = 3
+generator_content_count = 300
+generator_content_count = 260
+generator_content_count = 18392
+generator_content_count = 3
+generator_content_count = 10
+generator_content_count = 1239
+generator_content_count = 10
+generator_content_count = 1300
+generator_content_count = 3
+generator_content_count = 58
+generator_content_count = 0
+generator_content_count = 37
+generator_content_count = 0
+generator_content_count = 11375
+generator_content_count = 107
+generator_content_count = 3
+generator_content_count = 20
+generator_content_count = 1204858
+Sentence 1: True Negative
+Sentence 2: True Positive
+Sentence 3: True Positive
+Sentence 4: True Positive
+Sentence 5: True Negative
+Sentence 6: True Positive
+Sentence 7: True Positive
+Sentence 8: True Negative
+Sentence 9: True Positive
+Sentence 10: False Negative
+Sentence 11: True Negative
+Sentence 12: True Positive
+Sentence 13: True Positive
+Sentence 14: True Positive
+Sentence 15: True Positive
+Sentence 16: True Positive
+Sentence 17: True Positive
+Sentence 18: True Negative
+Sentence 19: True Negative
+Sentence 20: True Positive
+Sentence 21: True Positive
+Sentence 22: True Positive
+Sentence 23: True Positive
+Sentence 24: True Positive
+Sentence 25: True Positive
+Sentence 26: True Positive
+Sentence 27: True Positive
+Sentence 28: True Positive
+Sentence 29: True Positive
+Sentence 30: True Positive
+Sentence 31: True Positive
+Sentence 32: True Positive
+Sentence 33: True Positive
+Sentence 34: True Positive
+Sentence 35: True Positive
+Sentence 36: True Positive
+Sentence 37: True Positive
+Sentence 38: True Positive
+Sentence 39: False Negative
+Sentence 40: True Positive
+Sentence 41: True Positive
+Sentence 42: True Positive
+Sentence 43: True Positive
+Sentence 44: True Positive
+Sentence 45: True Positive
+Sentence 46: True Positive
+Sentence 47: True Positive
+Sentence 48: True Positive
+Sentence 49: True Positive
+Sentence 50: True Positive
+Sentence 51: True Negative
+Sentence 52: True Positive
+Sentence 53: True Positive
+Sentence 54: True Positive
+Sentence 55: True Positive
+Sentence 56: True Negative
+Sentence 57: True Positive
+Sentence 58: True Negative
+Sentence 59: True Negative
+Sentence 60: True Positive
+Sentence 61: True Negative
+Sentence 62: True Positive
+Sentence 63: True Negative
+Sentence 64: True Negative
+Sentence 65: True Positive
+Sentence 66: True Positive
+Sentence 67: True Positive
+Sentence 68: True Positive
+Sentence 69: True Positive
+Sentence 70: True Positive
+Sentence 71: True Positive
+Sentence 72: True Positive
+Sentence 73: True Positive
+Sentence 74: True Positive
+Sentence 75: True Negative
+Sentence 76: True Positive
+Sentence 77: False Negative
+Sentence 78: True Positive
+Sentence 79: True Positive
+Sentence 80: True Positive
+Sentence 81: True Positive
+Sentence 82: True Positive
+Sentence 83: True Positive
+Sentence 84: True Positive
+Sentence 85: True Positive
+Sentence 86: True Positive
+Sentence 87: True Positive
+Sentence 88: True Positive
+Sentence 89: True Positive
+Sentence 90: True Negative
+Sentence 91: True Positive
+Sentence 92: True Negative
+Sentence 93: True Positive
+Sentence 94: True Positive
+Sentence 95: True Positive
+Sentence 96: True Positive
+Sentence 97: True Positive
+CFG Evaluation (all articles):
+True Positive (TP): 78
+False Positive (TP): 0
+True Negative (TN): 16
+False Negative (FN): 3
+Precision: 1.0
+Recall: 0.9629629629629629

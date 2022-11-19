@@ -103,7 +103,7 @@
     ]
   ],
   [
-    true,
+    false,
     [
       ["sementara", "<konj_atr_pertama>"],
       ["itu", "<konj_atr_kedua>"],

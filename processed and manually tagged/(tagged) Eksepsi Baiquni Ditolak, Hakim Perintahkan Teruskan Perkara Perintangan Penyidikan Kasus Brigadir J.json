@@ -209,7 +209,7 @@
     ]
   ],
   [
-    true,
+    false,
     [
       ["diketahui", "<verba>"],
       [",", "<td_koma>"],

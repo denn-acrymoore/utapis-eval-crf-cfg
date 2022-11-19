@@ -226,7 +226,7 @@
     ]
   ],
   [
-    true,
+    false,
     [
       ["mereka", "<nomina>"],
       ["justru", "<adverbia>"],
@@ -261,7 +261,7 @@
     ]
   ],
   [
-    true,
+    false,
     [
       ["safrizal", "<nomina>"],
       ["menegaskan", "<verba>"],

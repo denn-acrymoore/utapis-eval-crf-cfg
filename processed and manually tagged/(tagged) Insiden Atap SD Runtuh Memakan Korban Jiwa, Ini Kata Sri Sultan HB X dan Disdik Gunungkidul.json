@@ -61,9 +61,9 @@
   [
     true,
     [
-      ["``", "<kurung_buka>"],
+      ["``", "<kutip_awal>"],
       [",", "<td_koma>"],
-      ["''", "<kurung_tutup>"],
+      ["''", "<kutip_akhir>"],
       ["ujarnya", "<nomina>"],
       ["dikutip", "<verba>"],
       ["dari", "<preposisi>"],
@@ -578,7 +578,7 @@
     ]
   ],
   [
-    false,
+    true,
     [
       ["struktur", "<nomina>"],
       ["bangunan", "<nomina>"],

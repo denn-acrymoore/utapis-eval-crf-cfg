@@ -235,7 +235,7 @@
     ]
   ],
   [
-    false,
+    true,
     [
       ["Prodi", "<nomina>"],
       ["Jurnalistik", "<nomina>"],
@@ -430,7 +430,7 @@
       ["Matching", "<nomina>"],
       ["Fund", "<nomina>"],
       ["Kedaireka", "<nomina>"],
-      ["sendiri", "<nomina>"],
+      ["sendiri", "<adjektiva>"],
       ["merupakan", "<verba>"],
       ["salah", "<adjektiva>"],
       ["satu", "<numeralia>"],

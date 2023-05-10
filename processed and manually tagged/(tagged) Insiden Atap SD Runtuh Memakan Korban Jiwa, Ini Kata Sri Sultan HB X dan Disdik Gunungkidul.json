@@ -103,7 +103,7 @@
     ]
   ],
   [
-    false,
+    true,
     [
       ["Sementara", "<kj_atr_pertama>"],
       ["itu", "<kj_atr_kedua>"],
@@ -116,7 +116,7 @@
       ["Kabupaten", "<nomina>"],
       ["Gunungkidul", "<nomina>"],
       [",", "<td_koma>"],
-      ["DI", "<preposisi>"],
+      ["DI", "<nomina>"],
       ["Yogyakarta", "<nomina>"],
       ["berharap", "<verba>"],
       ["insiden", "<nomina>"],
@@ -175,7 +175,7 @@
     ]
   ],
   [
-    true,
+    false,
     [
       ["Nunuk", "<nomina>"],
       ["Setyowati", "<nomina>"],
@@ -230,7 +230,7 @@
       ["bekerjasama", "<verba>"],
       ["dengan", "<dengan>"],
       ["Dinas", "<nomina>"],
-      ["Sosial", "<adjektiva>"],
+      ["Sosial", "<nomina>"],
       ["Pemberdayaan", "<nomina>"],
       ["Perempuan", "<nomina>"],
       ["dan", "<kj_koor_tak_hingga>"],
@@ -417,7 +417,7 @@
       ["``", "<kutip_awal>"],
       [",", "<td_koma>"],
       ["''", "<kutip_akhir>"],
-      ["imbuhnya", "<nomina>"],
+      ["imbuhnya", "<verba>"],
       [".", "<td_akhir_kal>"]
     ]
   ],
@@ -556,7 +556,7 @@
       ["satu", "<numeralia>"],
       ["dosen", "<nomina>"],
       ["Teknik", "<nomina>"],
-      ["Sipil", "<adjektiva>"],
+      ["Sipil", "<nomina>"],
       ["UGM", "<nomina>"],
       [",", "<td_koma>"],
       ["Muslikh", "<nomina>"],
@@ -578,7 +578,7 @@
     ]
   ],
   [
-    true,
+    false,
     [
       ["Struktur", "<nomina>"],
       ["bangunan", "<nomina>"],
@@ -623,7 +623,7 @@
       ["laboratorium", "<nomina>"],
       ["Departemen", "<nomina>"],
       ["Teknik", "<nomina>"],
-      ["Sipil", "<adjektiva>"],
+      ["Sipil", "<nomina>"],
       ["dan", "<kj_koor_tak_hingga>"],
       ["Lingkungan", "<nomina>"],
       [",", "<td_koma>"],
@@ -639,7 +639,7 @@
       ["``", "<kutip_awal>"],
       [",", "<td_koma>"],
       ["''", "<kutip_akhir>"],
-      ["ungkapnya", "<nomina>"],
+      ["ungkapnya", "<verba>"],
       [".", "<td_akhir_kal>"]
     ]
   ]

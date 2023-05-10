@@ -37,7 +37,7 @@
     ]
   ],
   [
-    false,
+    true,
     [
       ["Terbukti", "<verba>"],
       ["Telkom", "<nomina>"],
@@ -156,7 +156,7 @@
       ["telekomunikasi", "<nomina>"],
       ["besar", "<adjektiva>"],
       ["dari", "<preposisi>"],
-      ["berbagai", "<numeralia>"],
+      ["berbagai", "<nomina>"],
       ["negara", "<nomina>"],
       ["seperti", "<kj_sub_tnp_koma_kt_pertama>"],
       ["Orange", "<nomina>"],
@@ -279,7 +279,7 @@
       ["perusahaan", "<nomina>"],
       ["yang", "<kj_sub_yang>"],
       ["unggul", "<adjektiva>"],
-      ["berdasarkan", "<kj_sub_tnp_koma_kt_pertama>"],
+      ["berdasarkan", "<verba>"],
       ["impact", "<nomina>"],
       ["serta", "<kj_koor_tak_hingga>"],
       ["image", "<nomina>"],
@@ -394,7 +394,7 @@
       ["kasih", "<nomina>"],
       ["atas", "<preposisi>"],
       ["dukungan", "<nomina>"],
-      ["berbagai", "<numeralia>"],
+      ["berbagai", "<nomina>"],
       ["pihak", "<nomina>"],
       [".", "<td_akhir_kal>"]
     ]
@@ -408,7 +408,7 @@
     ]
   ],
   [
-    true,
+    false,
     [
       ["Pada", "<preposisi>"],
       ["kesempatan", "<nomina>"],

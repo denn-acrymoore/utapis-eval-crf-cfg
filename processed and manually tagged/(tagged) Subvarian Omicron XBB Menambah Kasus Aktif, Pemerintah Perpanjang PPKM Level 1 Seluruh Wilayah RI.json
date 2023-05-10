@@ -67,7 +67,7 @@
       ["(", "<kurung_buka>"],
       ["Dirjen", "<nomina>"],
       [")", "<kurung_tutup>"],
-      ["Bina", "<verba>"],
+      ["Bina", "<nomina>"],
       ["Administrasi", "<nomina>"],
       ["Kewilayahan", "<nomina>"],
       ["(", "<kurung_buka>"],
@@ -226,7 +226,7 @@
     ]
   ],
   [
-    false,
+    true,
     [
       ["Mereka", "<nomina>"],
       ["justru", "<adverbia>"],
@@ -261,7 +261,7 @@
     ]
   ],
   [
-    false,
+    true,
     [
       ["Safrizal", "<nomina>"],
       ["menegaskan", "<verba>"],

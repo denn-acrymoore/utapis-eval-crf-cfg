@@ -1,5 +1,6 @@
 import os
 import re
+import nltk
 from nltk.tag import CRFTagger
 from nltk.parse.chart import (
     SteppingChartParser,
@@ -7,9 +8,8 @@ from nltk.parse.chart import (
     LeafInitRule,
     FilteredBottomUpPredictCombineRule,
 )
-from datetime import datetime
-import pytz
 import unicodedata
+import json
 
 
 def initialize_crf_cfg():
@@ -144,3 +144,114 @@ def initialize_crf_cfg():
     )
 
     return utapis_crf_tagger, utapis_scp
+
+
+def stepping_chart_parsing(scp, tags):
+    scp.initialize(tags)
+
+    for step in scp.step():
+        # Berhenti bila ditemukan parsing yang lengkap.
+        if len(list(scp.parses())) > 0:
+            break
+
+        # Berhenti bila sudah tidak ada lagi kemungkinan parsing
+        # yang bisa ditambahkan.
+        if step is None:
+            break
+
+    # Return generator.
+    return scp.parses()
+
+
+def get_crf_results(crf_tagger, preprocessed_sentence_list):
+    return crf_tagger.tag_sents(preprocessed_sentence_list)
+
+
+def get_cfg_results(scp, list_of_tags):
+    """
+    scp: SteppingChartParser object
+    list_of_tags: list(list(str))
+
+    Return: cfg_results (list(bool))
+    """
+    cfg_results = []
+    for idx, tags in enumerate(list_of_tags):
+        print(f"Kalimat {idx+1}/{len(list_of_tags)}")
+        generator = stepping_chart_parsing(scp, tags)
+        generator_content_count = len(list(generator))
+
+        # print(f"generator_content_count = {generator_content_count}", end=" ")
+
+        if generator_content_count <= 0:
+            cfg_results.append(False)
+        elif generator_content_count > 0:
+            cfg_results.append(True)
+    return cfg_results
+
+
+def flatten_crf_all_article_results(tagged_sentences):
+    result = [word_tag for sent_list in tagged_sentences for word_tag in sent_list]
+    result = [x[1] for x in result]
+    return result
+
+
+def flatten_cfg_all_article_results(list_of_list_of_booleans):
+    return
+
+
+def get_crf_cfg_actual_values():
+    """
+    @return crf_all_data: list(list(tuple(str, str)))
+    @return cfg_all_data: list(tuple(boolean, list(str)))
+    """
+    curr_dir = os.path.dirname(__file__)
+    eval_path = os.path.join(curr_dir, os.pardir, "processed and manually tagged")
+
+    # List semua tagged file.
+    file_list = os.listdir(eval_path)
+
+    # Ambil file-file yang memiliki extension .json.
+    eval_list = []
+    for data in file_list:
+        data_path = os.path.join(eval_path, data)
+        if os.path.isfile(data_path) and os.path.splitext(data_path)[1] == ".json":
+            eval_list.append(data_path)
+
+    eval_list.sort()
+
+    # Baca setiap file dan ambil semua actual values dari CRF dan CFG.
+    # NOTE: data semua kalimat di tiap file digabung menjadi satu list.
+    crf_all_data = []
+    cfg_all_data = []
+
+    for eval_file_path in eval_list:
+        temp_crf_data = []
+        temp_cfg_data = []
+
+        with open(eval_file_path, "r") as fp:
+            json_obj = json.load(fp)
+
+        for sentence_obj in json_obj:
+            tag_tuple_format = []
+            tag_only = []
+
+            for tag in sentence_obj[1]:
+                tag_tuple_format.append((tag[0], tag[1]))
+                tag_only.append(tag[1])
+            temp_crf_data.append(tag_tuple_format)
+            temp_cfg_data.append((sentence_obj[0], tag_only))
+
+        crf_all_data.append(temp_crf_data)
+        cfg_all_data.append(temp_cfg_data)
+
+    return crf_all_data, cfg_all_data
+
+
+if __name__ == "__main__":
+    crf_all_data, cfg_all_data = get_crf_cfg_actual_values()
+    print(len(crf_all_data))
+    print(len(cfg_all_data))
+    print(crf_all_data[0])
+    print()
+    print(cfg_all_data[0])
+    print()

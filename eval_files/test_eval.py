@@ -5,6 +5,9 @@ import numpy as np
 
 curr_dir = os.path.dirname(__file__)
 fig_name = os.path.join(curr_dir, "test_fig.png")
+file_name = os.path.join(curr_dir, "test_file.txt")
+
+fp = open(file_name, "w")
 
 actual = ["a", "a", "a", "b", "b", "c", "c", "b", "b", "b", "c", "c"]
 predicted = ["a", "b", "a", "c", "a", "b", "c", "b", "b", "b", "a", "a"]
@@ -12,6 +15,9 @@ predicted = ["a", "b", "a", "c", "a", "b", "c", "b", "b", "b", "a", "a"]
 cm = metrics.confusion_matrix(actual, predicted, labels=["a", "b", "c"])
 
 print(cm)
+fp.write("===== Confusion Matrix =====\n")
+np.savetxt(fp, cm)
+fp.write("\n\n")
 
 cm_display = metrics.ConfusionMatrixDisplay(
     confusion_matrix=cm, display_labels=["a", "b", "c"]
@@ -54,3 +60,9 @@ classification_report = metrics.classification_report(
 )
 print(type(classification_report))  # Output: <class 'str'>
 print(classification_report)
+
+fp.write("===== Classification Report =====\n")
+fp.write(classification_report)
+fp.write("\n\n")
+
+fp.close()

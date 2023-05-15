@@ -164,6 +164,10 @@ def stepping_chart_parsing(scp, tags):
 
 
 def get_crf_results(crf_tagger, preprocessed_sentence_list):
+    """
+    :return: list of tagged sentences.
+    :rtype: list(list(tuple(str, str)))
+    """
     return crf_tagger.tag_sents(preprocessed_sentence_list)
 
 
@@ -187,16 +191,6 @@ def get_cfg_results(scp, list_of_tags):
         elif generator_content_count > 0:
             cfg_results.append(True)
     return cfg_results
-
-
-def flatten_crf_all_article_results(tagged_sentences):
-    result = [word_tag for sent_list in tagged_sentences for word_tag in sent_list]
-    result = [x[1] for x in result]
-    return result
-
-
-def flatten_cfg_all_article_results(list_of_list_of_booleans):
-    return
 
 
 def get_crf_cfg_actual_values():

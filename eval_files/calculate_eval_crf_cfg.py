@@ -88,6 +88,7 @@ cfg_actual_data_1d = []
 crf_predicted_data_1d = []
 cfg_predicted_data_1d = []
 
+# Ambil predicted value dan actual value CRF
 for idx, crf_data_per_article in enumerate(crf_all_data):
     print(f"CRF: Processing Article {idx+1}")
     crf_article_word_only = []
@@ -97,17 +98,9 @@ for idx, crf_data_per_article in enumerate(crf_all_data):
 
     result = get_crf_results(utapis_crf_tagger, crf_article_word_only)
     crf_predicted_data.append(result)
-    crf_predicted_data_1d += result
 
-print()
-
-for idx, cfg_data_per_article in enumerate(cfg_all_data):
-    print(f"CFG: Processing Article {idx+1}")
-    cfg_article_tag_only = [item[1] for item in cfg_data_per_article]
-    cfg_actual_data_1d += [item[0] for item in cfg_data_per_article]
-
-    result = get_cfg_results(utapis_scp, cfg_article_tag_only)
-    cfg_predicted_data_1d += result
+    for r in result:
+        crf_predicted_data_1d += [x[1] for x in r]
 
 print()
 
@@ -117,7 +110,7 @@ print("======= CRF Only Evaluation =======")
 cm = metrics.confusion_matrix(
     crf_actual_data_1d, crf_predicted_data_1d, labels=crf_labels
 )
-np.savetxt(fp, cm)
+np.savetxt(fp, cm, fmt="%d")
 fp.write("\n\n")
 
 cm_display = metrics.ConfusionMatrixDisplay(
@@ -135,14 +128,26 @@ fp.write(classification_report)
 fp.write("\n\n")
 print("CRF Classification Report Written!")
 
+print()
 
-# Evaluasi algoritma CRF.
+# Ambil predicted value dan actual value CFG
+for idx, cfg_data_per_article in enumerate(cfg_all_data):
+    print(f"CFG: Processing Article {idx+1}")
+    cfg_article_tag_only = [item[1] for item in cfg_data_per_article]
+    cfg_actual_data_1d += [item[0] for item in cfg_data_per_article]
+
+    result = get_cfg_results(utapis_scp, cfg_article_tag_only)
+    cfg_predicted_data_1d += result
+
+print()
+
+# Evaluasi algoritma CFG.
 fp.write("======= CFG Only Evaluation =======\n")
 print("======= CFG Only Evaluation =======")
 cm = metrics.confusion_matrix(
     cfg_actual_data_1d, cfg_predicted_data_1d, labels=[True, False]
 )
-np.savetxt(fp, cm)
+np.savetxt(fp, cm, fmt="%d")
 fp.write("\n\n")
 
 cm_display = metrics.ConfusionMatrixDisplay(
@@ -178,7 +183,7 @@ for idx, crf_result_per_article in enumerate(crf_predicted_data):
 cm = metrics.confusion_matrix(
     cfg_actual_data_1d, cfg_predicted_data_1d, labels=[True, False]
 )
-np.savetxt(fp, cm)
+np.savetxt(fp, cm, fmt="%d")
 fp.write("\n\n")
 
 cm_display = metrics.ConfusionMatrixDisplay(

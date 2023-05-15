@@ -83,3 +83,33 @@
                 weighted avg       0.96      0.96      0.96      5896
 
 
+======= CFG Only Evaluation =======
+238 12
+5 41
+
+
+              precision    recall  f1-score   support
+
+        True       0.98      0.95      0.97       250
+       False       0.77      0.89      0.83        46
+
+    accuracy                           0.94       296
+   macro avg       0.88      0.92      0.90       296
+weighted avg       0.95      0.94      0.94       296
+
+
+======= CRF + CFG Evaluation =======
+236 14
+12 34
+
+
+              precision    recall  f1-score   support
+
+        True       0.95      0.94      0.95       250
+       False       0.71      0.74      0.72        46
+
+    accuracy                           0.91       296
+   macro avg       0.83      0.84      0.84       296
+weighted avg       0.91      0.91      0.91       296
+
+
